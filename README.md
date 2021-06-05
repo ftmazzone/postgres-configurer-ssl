@@ -201,4 +201,8 @@ Créer les certificats nécessaires avec OpenSSL pour activer l'authentification
     >WHERE psa.pid = (SELECT * FROM pg_backend_pid());
     >```
 
-    [Source](https://gitlab.com/ftmazzone/postgres-configurer-ssl.git)
+    ## Sources
+
+    * [pg_hba.conf](https://www.postgresql.org/docs/current/auth-pg-hba-conf.html)
+    * [postgresql.conf](https://www.postgresql.org/docs/current/runtime-config-connection.html#RUNTIME-CONFIG-CONNECTION-SSL)
+    * [x509v3_config](https://www.openssl.org/docs/man1.0.2/man5/x509v3_config.html)
