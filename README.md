@@ -150,7 +150,7 @@ Créer les certificats nécessaires avec OpenSSL pour activer l'authentification
     >```
 
     >```sql
-    >psql -c "CREATE ROLE $nom_utilisateur LOGIN NOSUPERUSER NOINHERIT NOCREATEDB NOCREATEROLE NOREPLICATION;"
+    >psql -c "CREATE ROLE \"$nom_utilisateur\" LOGIN NOSUPERUSER NOINHERIT NOCREATEDB NOCREATEROLE NOREPLICATION;"
     >```
 
 4. Redémarrer le service Postgresql
