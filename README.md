@@ -146,10 +146,7 @@ Créer les certificats nécessaires avec OpenSSL pour activer l'authentification
     ##### Linux
     >```bash
     >su postgres
-    >psql
-    >```
-
-    >```sql
+    >nom_utilisateur=<nom_utilisateur>
     >psql -c "CREATE ROLE \"$nom_utilisateur\" LOGIN NOSUPERUSER NOINHERIT NOCREATEDB NOCREATEROLE NOREPLICATION;"
     >```
 
